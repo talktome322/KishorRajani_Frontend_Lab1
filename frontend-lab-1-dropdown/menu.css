@@ -1,0 +1,58 @@
+header{
+    font-weight: bolder;
+    color: rgb(137, 137, 137);
+    font-size: xx-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: right;
+    padding: 20px;
+    background-color: rgba(181, 255, 245, 0.685);
+}
+
+#navigate{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+}
+
+.menu{
+    margin: 0%;
+    background-color: rgba(182, 213, 198, 0.772);
+}
+
+.menu li{
+    padding: 10px;
+    display: inline-block;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.menu li:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.dropdown {
+    display: none;
+}
+
+.dropdown li{
+    display: block;
+}
+
+.menu li:hover .submenu {
+    display: block;
+    position: absolute;
+    top: 100%;
+    background-color: rgb(192, 192, 192);
+    padding-right: 40px;
+}
+
+.menu li:hover .dropdown {
+    display: block;
+    position: relative;
+}
